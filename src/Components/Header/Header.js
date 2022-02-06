@@ -26,6 +26,8 @@ function Header() {
         <div className="themeSwitchContainer">
           <img src="Assets/header/theme-switch.png" alt="" />
         </div>
+
+        <div className="getInButton">GET IN</div>
       </div>
       
   </div>
