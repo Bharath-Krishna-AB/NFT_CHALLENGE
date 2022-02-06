@@ -1,18 +1,18 @@
 import React from 'react';
 import CollectionCard from '../CollectionCards/CollectionCard';
 
-function PunkList({punkList}) {
+function PunkList({punkListData}) {
   return (
       <div className="punkList">
           {
-              punkList.map(punk =>(
+              punkListData.map(punk =>(
                   <div>
                       <CollectionCard
                       key={punk.token_id}
                       id={punk.token_id}
                       name={punk.name}
                       traits={punk.traits}
-                      image={punk.image_original_url}
+                      image={punk.image_url}
                       />
                   </div>
               )
