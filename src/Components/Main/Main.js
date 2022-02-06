@@ -25,7 +25,7 @@ function Main({selectedPunk,punkListData}) {
               <div className="nonImgSection">
               <div className="punkDetails">
                   <div className="title">{activePunk?.name}</div>
-                  <span className="itemNumber">#{activePunk?.token_id}</span>
+                  <span className="itemNumber">#{activePunk? parseInt(activePunk.token_id, 10)+1:''}</span>
               </div>
 
               <div className="owner">
