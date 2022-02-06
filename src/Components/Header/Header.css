@@ -1,9 +1,14 @@
 .header{
     color: white;
-    height: 100px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #000;
 }
 
 .header > div{
@@ -11,12 +16,12 @@
 }
 
 .punkLogo{
-    width: 200px;
+    width: 150px;
 }
 
 .searchBar{
     background-color: #1c1c1e;
-    height: 50px;
+    height: 45px;
     flex: 1;
     display: flex;
     border-radius: 50px;
@@ -25,6 +30,10 @@
 
 .searchIconContainer{
     margin: 10px;
+}
+
+.searchIconContainer > img{
+    margin-top: 7px;
 }
 
 .searchInput{
@@ -59,19 +68,19 @@
     display: flex;
     background-color: #1c1c1e;
     border-radius: 50px;
-    padding: 15px;
+    padding: 13px;
     justify-content: center;
     align-items: center;
     object-fit: contain;
 }
 
 .themeSwitchContainer > img{
-    height: 25px;
+    height: 20px;
 }
 
 .getInButton{
     background: linear-gradient(to right, #59f9b7 , #66feea);
-    padding: 15px 40px;
+    padding: 12px 40px;
     border-radius: 50px;
     color: black;
 }
