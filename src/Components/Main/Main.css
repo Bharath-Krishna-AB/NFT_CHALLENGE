@@ -25,7 +25,6 @@
 .punkDetails{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     flex: 0.75;
 }
 
@@ -36,7 +35,7 @@
 }
 
 .title{
-    font-size: 96px;
+    font-size: 80px;
     font-weight: 800;
     color: #fff;
 }
@@ -44,7 +43,7 @@
 .itemNumber{
     color: #a1a5b0;
     font-size: 72px;
-    align-self: center;
+    align-self: flex-start;
 }
 
 .owner{
