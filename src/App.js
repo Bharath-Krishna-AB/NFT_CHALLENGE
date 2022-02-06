@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Components/Header/Header';
 import CollectionCard from './Components/CollectionCards/CollectionCard';
+import {useState,useEffect} from 'react'
+
 
 function App() {
   return (
