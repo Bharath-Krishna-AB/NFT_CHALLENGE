@@ -21,6 +21,9 @@ function App() {
     return GetMyNfts()
 
   }, []);
+
+ console.log(punkListData.length)
+
   
   return (
     <div className='app'>

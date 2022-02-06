@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
-function Main(selectedPunk,punkListData) {
+function Main({selectedPunk,punkListData}) {
+    // console.log(punkListData);
+    console.log(selectedPunk);
     const [activePunk, setActivePunk] = useState(punkListData[0]);
+
+    console.log(activePunk)
 
     useEffect(() => {
         setActivePunk(punkListData[selectedPunk])
@@ -19,7 +23,7 @@ function Main(selectedPunk,punkListData) {
               
               <div className="punkDetails">
                   <div className="title">{activePunk?.name}</div>
-                  <span className="itemNumber"></span>
+                  <span className="itemNumber">#{activePunk?.token_id}</span>
               </div>
 
               <div className="owner">
