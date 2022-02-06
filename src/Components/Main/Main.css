@@ -21,6 +21,7 @@
     overflow: hidden;
     display: flex;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 .punkDetails{
