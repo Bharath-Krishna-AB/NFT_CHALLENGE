@@ -1,4 +1,5 @@
 import React from 'react';
+import './PunkList.css'
 import CollectionCard from '../CollectionCards/CollectionCard';
 
 function PunkList({punkListData}) {
