@@ -37,14 +37,16 @@ function Main({selectedPunk,punkListData}) {
                           <div className='walletId'>0xB24bCEF0b0A7bc889e6eeeD35896183430Bb561f</div>
                           <div className="ownerHandle">@Bharath AB</div>
                       </div>
-                      <div className="ownerlink">
+                      <div className="ownerLinkContainer">
+                      <div className="ownerLink">
                           <img src="Assets/owner/instagram.png" alt="" />
                       </div>
-                      <div className="ownerlink">
+                      <div className="ownerLink">
                           <img src="Assets/owner/twitter.png" alt="" />
                       </div>
-                      <div className="ownerlink">
+                      <div className="ownerLink">
                           <img src="Assets/owner/more.png" alt="" />
+                      </div>
                       </div>
                   </div>
               </div>

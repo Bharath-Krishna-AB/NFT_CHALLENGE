@@ -43,14 +43,14 @@
 }
 
 .title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
     color: #fff;
 }
 
 .itemNumber{
     color: #a1a5b0;
-    font-size: 50px;
+    font-size: 45px;
     align-self: flex-start;
 }
 
@@ -90,8 +90,8 @@
 .ownerLink{
     padding: 12px;
     border-radius: 50px;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border: 1px solid #fff;
     margin: 0 0 0 10px;
 }
@@ -103,4 +103,10 @@
 
 .walletId{
     color: #fff;
+}
+
+.ownerLinkContainer{
+    display: flex;
+    position: absolute;
+    right: 30px;
 }
