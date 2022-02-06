@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Main.css'
 
 function Main({selectedPunk,punkListData}) {
     // console.log(punkListData);
