@@ -1,6 +1,5 @@
 import React from 'react';
 
-function CollectionCard() {
 const CollectionCard = ({id,name,traits,image}) =>{
   return (
       <div className="collectionCard">
@@ -10,13 +9,12 @@ const CollectionCard = ({id,name,traits,image}) =>{
               {name} <div className="id">#{id}</div>
           </div>
           <div className="priceContainer">
-              <img src="" alt="" className="eth" />
+              <img src="Assets/owner/weth.png" alt="" className="weth" />
               <div className="price"></div>
           </div>
       </div>
   )
   
-}
 }
 
 export default CollectionCard;
