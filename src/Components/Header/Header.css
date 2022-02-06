@@ -84,6 +84,7 @@
     border-radius: 50px;
     color: black;
     transition: 0.7s ease-in-out;
+    cursor: pointer;
 }
 
 .getInButton:hover{
