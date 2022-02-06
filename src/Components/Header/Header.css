@@ -50,9 +50,16 @@
     color: #a1a5b0;
 }
 
+
 .headerItems > p{
     margin: 10px;
     font-size: 15px;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+.headerItems > p:hover{
+    color: #c7c7c7;
 }
 
 .headerActions{
