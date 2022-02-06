@@ -38,9 +38,11 @@ function Main({selectedPunk,punkListData}) {
                           <div className="ownerHandle">@Bharath AB</div>
                       </div>
                       <div className="ownerLinkContainer">
+                          <a href="https://www.instagram.com/bharath__ab/">
                       <div className="ownerLink">
                           <img src="Assets/owner/instagram.png" alt="" />
                       </div>
+                      </a>
                       <div className="ownerLink">
                           <img src="Assets/owner/twitter.png" alt="" />
                       </div>
