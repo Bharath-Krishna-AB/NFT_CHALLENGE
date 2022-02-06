@@ -7,7 +7,7 @@ const CollectionCard = ({id,name,traits,image}) =>{
           <img src={image} alt="" />
           <div className="details">
           <div className="name">
-              {name} <div className="id">#{id}</div>
+              {name} <div className="id">#{parseInt(id, 10)+1}</div>
           </div>
           <div className="priceContainer">
               <img src="Assets/owner/weth.png" alt="" className="weth" />
