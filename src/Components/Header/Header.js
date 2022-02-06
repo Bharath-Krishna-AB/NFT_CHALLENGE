@@ -21,6 +21,12 @@ function Header() {
         <p>Marketplace</p>
         <p>Create</p>
       </div>
+
+      <div className="headerActions">
+        <div className="themeSwitchContainer">
+          <img src="Assets/header/theme-switch.png" alt="" />
+        </div>
+      </div>
       
   </div>
   );
