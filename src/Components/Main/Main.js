@@ -1,23 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-function Main() {
+function Main(selectedPunk,punkListData) {
+    const [activePunk, setActivePunk] = useState(punkListData[0]);
+
+    useEffect(() => {
+        setActivePunk(punkListData[selectedPunk])
+    }, [punkListData,selectedPunk]);
+    
+
   return (
       <div className="main">
           <div className="mainContent">
               <div className="punkHighlight">
                   <div className="punkContainer">
-                      <img className='selectedPunk' src={activePunk.image_url} alt="" />
+                      <img className='selectedPunk' src={activePunk?.image_url} alt="" />
                   </div>
               </div>
               
               <div className="punkDetails">
-                  <div className="title">{activePunk.name}</div>
+                  <div className="title">{activePunk?.name}</div>
                   <span className="itemNumber"></span>
               </div>
 
               <div className="owner">
                   <div className="ownerImageContainer">
-                      <img src={activePunk.image_url} alt="" />
+                      <img src={activePunk?.image_url} alt="" />
                   </div>
                   <div className="ownerDetails">
                       <div className="ownerNameAndHandle">

@@ -8,6 +8,7 @@ import Main from './Components/Main/Main';
 
 function App() {
   const [punkListData, setPunkListData] = useState([]);
+  const [selectedPunk, setSelectedPunk] = useState(0);
 
   useEffect(() => {
     
@@ -23,9 +24,18 @@ function App() {
   
   return (
     <div className='app'>
-      <Header/>
-      <PunkList punkListData={punkListData}/>
-      <Main/>
+        <Header/>
+      {punkListData.length > 0 && (
+        <>
+          <Main punkListData={punkListData} selectedPunk={selectedPunk} />)
+          <PunkList 
+          punkListData={punkListData} 
+          setSelectedPunk={setSelectedPunk} 
+          />
+        </>
+      )
+      }
+
     </div>
   );
 }
