@@ -83,4 +83,13 @@
     padding: 12px 40px;
     border-radius: 50px;
     color: black;
+    transition: 0.7s ease-in-out;
+}
+
+.getInButton:hover{
+    opacity: 0.8;
+}
+
+.getInButton:active{
+    transform: translateY(2px);
 }
