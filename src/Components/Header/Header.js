@@ -4,7 +4,9 @@ import './Header.css'
 function Header() {
   return (
   <div className='header'>
-      <h2>header</h2>
+      <div className="logo-container">
+          <img src="punkLogo" className='punkLogo' alt="" />
+      </div>
   </div>
   );
 }
