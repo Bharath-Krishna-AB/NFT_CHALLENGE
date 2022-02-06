@@ -22,6 +22,7 @@ function Main({selectedPunk,punkListData}) {
                   </div>
               </div>
               
+              <div className="nonImgSection">
               <div className="punkDetails">
                   <div className="title">{activePunk?.name}</div>
                   <span className="itemNumber">#{activePunk?.token_id}</span>
@@ -46,6 +47,7 @@ function Main({selectedPunk,punkListData}) {
                           <img src="Assets/owner/more.png" alt="" />
                       </div>
                   </div>
+              </div>
               </div>
           </div>
       </div>

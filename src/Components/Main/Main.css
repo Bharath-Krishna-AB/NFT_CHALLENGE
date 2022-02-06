@@ -34,15 +34,22 @@
     max-height: 30vw;
 }
 
+
+.nonImgSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .title{
-    font-size: 80px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 700;
     color: #fff;
 }
 
 .itemNumber{
     color: #a1a5b0;
-    font-size: 72px;
+    font-size: 50px;
     align-self: flex-start;
 }
 
