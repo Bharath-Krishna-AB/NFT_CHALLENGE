@@ -96,11 +96,16 @@
     border: 1px solid #fff;
     margin: 0 0 0 10px;
     cursor: pointer;
+    transition: 0.7s ease-in-out;
 }
 
 .ownerLink > img{
     height: 100%;
     width: 100%;
+}
+
+.ownerLink > img:hover{
+    opacity: 0.6;
 }
 
 .walletId{
