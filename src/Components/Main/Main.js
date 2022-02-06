@@ -29,11 +29,11 @@ function Main({selectedPunk,punkListData}) {
 
               <div className="owner">
                   <div className="ownerImageContainer">
-                      <img src={activePunk?.image_url} alt="" />
+                      <img src={activePunk?.owner.profile_img_url} alt="" />
                   </div>
                   <div className="ownerDetails">
                       <div className="ownerNameAndHandle">
-                          <div>0xB24bCEF0b0A7bc889e6eeeD35896183430Bb561f</div>
+                          <div className='walletId'>0xB24bCEF0b0A7bc889e6eeeD35896183430Bb561f</div>
                           <div className="ownerHandle">@Bharath AB</div>
                       </div>
                       <div className="ownerlink">
