@@ -17,6 +17,7 @@
 
 .punkLogo{
     width: 150px;
+    cursor: pointer;
 }
 
 .searchBar{
