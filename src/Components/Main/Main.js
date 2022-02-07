@@ -35,7 +35,7 @@ function Main({selectedPunk,punkListData}) {
                   <div className="ownerDetails">
                       <div className="ownerNameAndHandle">
                           <div className='walletId'>0xB24bCEF0b0A7bc889e6eeeD35896183430Bb561f</div>
-                          <div className="ownerHandle">@Bharath AB</div>
+                          <a href="mailto:Bharatha.b2007@gmail.com"><div className="ownerHandle">@Bharath AB</div></a>
                       </div>
                       <div className="ownerLinkContainer">
                           <a href="https://www.instagram.com/bharath__ab/">
